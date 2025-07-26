@@ -1,5 +1,35 @@
+# Build outputs
 bin/
 obj/
-/packages/
+Debug/
+Release/
+*/Debug/
+*/Release/
+
+# NuGet packages (if not using package restore)
+packages/
+*.nupkg
+
+# JetBrains Rider
+.idea/
 riderModule.iml
-/_ReSharper.Caches/
+_ReSharper.Caches/
+.ReSharper/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# CMake (if applicable)
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Others
+*.log
+*.tmp
+*.db
